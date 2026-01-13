@@ -1,7 +1,7 @@
 services: # （１）
   env:
     image: signate
-    container_name: signate_contadiner
+    container_name: signate_container
     volumes: # （４）
       - ..:/root/work
     build:
